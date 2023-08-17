@@ -6,8 +6,12 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+        
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
       - name: python script
-        run: cd..
-      - name: python script
-        run: python /files/sample.py
+        run: python main.py
           
