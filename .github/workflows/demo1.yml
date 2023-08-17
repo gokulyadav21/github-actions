@@ -17,4 +17,7 @@ jobs:
           
       - name: python script
         run: python main.py
+
+      - name: execute python script
+        run: python /files/sample.py
           
