@@ -18,6 +18,9 @@ jobs:
       - name: python script
         run: python main.py
 
+      - name: present working directory
+        run: pwd
+        
       - name: execute python script
         run: python /files/sample.py
           
