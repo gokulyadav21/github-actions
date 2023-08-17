@@ -7,4 +7,4 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
       - name: python script
-        run: python files/sample.py
+        run: python ../files/sample.py
