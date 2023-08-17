@@ -6,6 +6,9 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+
+      - name: checkout repo content
+        uses: actions/checkout@v2 
         
       - name: setup python
         uses: actions/setup-python@v4
